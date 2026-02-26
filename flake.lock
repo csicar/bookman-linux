@@ -3,7 +3,7 @@
     "bookman-windows-download": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-l/4wG0T+qJs1G0iTWZZXj87T61Jb8NI5aVNJWIDS4FI=",
+        "narHash": "sha256-nc5z0+b3S9p6uMB9GrEa0s2fKEUKNB2c2gZN2RDUK3M=",
         "type": "file",
         "url": "https://cockpit.bookman-gmbh.de/api/java/update/newest/WINDOWS/file"
       },
