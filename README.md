@@ -19,6 +19,12 @@ AppImage for non-nix installs
 nix bundle --bundler github:ralismark/nix-appimage github:csicar/bookman-linux
 ```
 
+DEB Package for debian images
+-----------------------------
+
+```bash
+nix bundle --bundler github:NixOS/bundlers#toDEB  github:csicar/bookman-linux
+```
 
 Update on version changes
 -------------------------
