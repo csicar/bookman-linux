@@ -1,6 +1,6 @@
 {
 
-  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-24.05;
+  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-26.05;
 
   inputs.install4j.url = "https://maven.ej-technologies.com/repository/com/install4j/install4j-runtime/10.0.8/install4j-runtime-10.0.8.jar";
   inputs.install4j.flake = false;
@@ -16,7 +16,7 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        jdk = pkgs.jdk21.override { enableJavaFX = true; };
+        jdk = pkgs.zulu25.override { enableJavaFX = true; };
       in
       rec {
         packages.default = pkgs.writeShellApplication
