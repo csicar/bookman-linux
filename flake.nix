@@ -45,16 +45,6 @@
             '';
           };
 
-
-
-                  # -Dde.bookman.deployMode=LIVE \
-                  # -Dde.bookman.javaBackendUri=https://cockpit.bookman-gmbh.de/api/java/ \
-                  # -Dde.bookman.microsoftApplicationId=a7719d9a-1877-4bd1-a3c7-e3f8edf86485 \
-                  # -Dde.bookman.microsoftSsoRedirectUrl=http://localhost:4826 \
-                  # --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls \
-                  # --add-exports javafx.base/com.sun.javafx.event=org.controlsfx.controls \
-                  # --add-opens javafx.base/com.sun.javafx.event=ALL-UNNAMED \
-
         packages.bookman-overrides = pkgs.runCommand "bookman-overrides"
           {
             src = ./override;
