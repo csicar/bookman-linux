@@ -3,7 +3,7 @@
     "bookman-windows-download": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-E5FeFXxpW7JYwN+YB9zr18L9qmDNalmpvoILrfPxin8=",
+        "narHash": "sha256-K+FLQiGIG15w00hc62Uu7ag/K7OHyfydPT2nDKoHRJI=",
         "type": "file",
         "url": "https://cockpit.bookman-gmbh.de/api/java/update/newest/WINDOWS/file"
       },
@@ -44,11 +44,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1782116945,
-        "narHash": "sha256-G3tw/IXmaH6IQ2upZvhuN9sG8CkuX+BLuJDpE8hz0Ds=",
+        "lastModified": 1785386831,
+        "narHash": "sha256-sPS3CaXH8RAT3FZRuy4VcV47iuYIWMMfa0GbyJKC3o4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "34268251cf5547d39063f2c5ea9a196246f7f3a6",
+        "rev": "21ea275a7c46aef9d4d6ddc962e6d562e9d94183",
         "type": "github"
       },
       "original": {
